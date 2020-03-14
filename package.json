@@ -1,0 +1,38 @@
+{
+  "name": "eventico-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELAndrews/Eventico-BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELAndrews/Eventico-BE/issues"
+  },
+  "homepage": "https://github.com/ELAndrews/Eventico-BE#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.11",
+    "moment": "^2.24.0",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
