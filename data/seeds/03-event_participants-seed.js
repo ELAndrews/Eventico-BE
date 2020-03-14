@@ -1,13 +1,16 @@
 
-exports.seed = function(knex) {
+exports.seed = function (knex) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('event_participants').del()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
+      return knex('event_participants').insert([
+        { participant: 2, event: 1 },
+        { participant: 2, event: 2 },
+        { participant: 3, event: 1 },
+        { participant: 4, event: 2 },
+        { participant: 5, event: 1 },
+        { participant: 5, event: 2 }
       ]);
     });
 };
