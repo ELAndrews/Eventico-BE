@@ -11,3 +11,5 @@ server.use(helmet())
 server.get("/", (req, res) => {
     res.status(200).json({ message: `Welcome to the Eventico API` })
 })
+
+module.exports = server;

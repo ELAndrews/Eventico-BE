@@ -5,12 +5,12 @@ exports.seed = function (knex) {
     .then(function () {
       // Inserts seed entries
       return knex('event_participants').insert([
-        { participant: 2, event: 1 },
-        { participant: 2, event: 2 },
-        { participant: 3, event: 1 },
-        { participant: 4, event: 2 },
-        { participant: 5, event: 1 },
-        { participant: 5, event: 2 }
+        { participant: 32, event: 17 },
+        { participant: 32, event: 18 },
+        { participant: 33, event: 17 },
+        { participant: 34, event: 18 },
+        { participant: 35, event: 17 },
+        { participant: 35, event: 18 }
       ]);
     });
 };
